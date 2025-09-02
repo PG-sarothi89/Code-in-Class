@@ -14,7 +14,7 @@
 //     return 0;
 // }
 
-#include <stdio.h>
+/*#include <stdio.h>
 int main()
 {
 
@@ -27,3 +27,4 @@ int main()
 
     return 0;
 }
+    */
