@@ -28,3 +28,18 @@ int main()
     return 0;
 }
     */
+
+
+    #include <stdio.h>
+int main()
+{
+
+    int a, b, c, result;
+    a = 10;
+    b = 15;
+    c = a & b ;
+
+    printf("Bitwise operator is %d\n", c);
+
+    return 0;
+}
