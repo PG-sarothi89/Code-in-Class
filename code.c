@@ -29,17 +29,28 @@ int main()
 }
     */
 
+//     #include <stdio.h>
+// int main()
+// {
 
-    #include <stdio.h>
+//     int a, b, c, result;
+//     a = 10;
+//     b = 15;
+//     c = a & b ;
+
+//     printf("Bitwise operator is %d\n", c);
+
+//     return 0;
+// }
+
+#include <stdio.h>
 int main()
 {
-
-    int a, b, c, result;
-    a = 10;
-    b = 15;
-    c = a & b ;
-
-    printf("Bitwise operator is %d\n", c);
-
+    int a, b, pre, post;
+    a = 5;
+    b = 10;
+    pre = ++a;
+    post = b++;
+    printf("Pre-increment: %d, Post-increment: %d\n", pre, post);
     return 0;
 }
